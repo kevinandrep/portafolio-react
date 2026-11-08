@@ -20,7 +20,7 @@ export const ProjectsComponent = ({ projects }: Props) => (
         </ul>
         <div className={classes.links}>
           <a href={project.repoUrl} target="_blank" rel="noreferrer">
-            Repositorio
+            Ver repositorio
           </a>
           {project.demoUrl && (
             <a href={project.demoUrl} target="_blank" rel="noreferrer">
