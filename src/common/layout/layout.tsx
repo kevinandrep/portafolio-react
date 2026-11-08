@@ -8,7 +8,7 @@ const linkClassName = ({ isActive }: { isActive: boolean }) =>
 export const Layout = () => (
   <div className={classes.root}>
     <header className={classes.header}>
-      <span className={classes.brand}>Portafolio</span>
+      <span className={classes.brand}>Kevin</span>
       <nav className={classes.nav}>
         <NavLink to={appRoutes.home} end className={linkClassName}>
           Inicio
