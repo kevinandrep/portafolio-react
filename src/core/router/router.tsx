@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router";
 import { Layout } from "../../common/layout";
+import { HomeScene, ProjectsScene } from "../../scenes";
 import { appRoutes } from "./routes";
 
 export const router = createBrowserRouter([
@@ -8,11 +9,11 @@ export const router = createBrowserRouter([
     children: [
       {
         path: appRoutes.home,
-        element: <h1>Inicio</h1>,
+        element: <HomeScene />,
       },
       {
         path: appRoutes.projects,
-        element: <h1>Proyectos</h1>,
+        element: <ProjectsScene />,
       },
     ],
   },
