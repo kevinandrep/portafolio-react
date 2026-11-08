@@ -1,6 +1,8 @@
+import { ProjectsContainer } from "../pods/projects";
+
 export const ProjectsScene = () => (
   <section>
     <h1>Proyectos</h1>
-    <p>Aquí irá la lista de proyectos.</p>
+    <ProjectsContainer />
   </section>
 );
