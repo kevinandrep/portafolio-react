@@ -1,4 +1,4 @@
-import type { ProjectApiModel } from "./projects.api-model";
+import type { ProjectApiModel } from "./api/projects.api-model";
 import type { ProjectVm } from "./projects.vm";
 
 export const mapProjectFromApiToVm = (project: ProjectApiModel): ProjectVm => ({
