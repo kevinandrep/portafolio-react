@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router";
 import { Layout } from "../../common/layout";
-import { HomeScene, ProjectsScene, SkillsScene } from "../../scenes";
+import { HomeScene, ProjectsScene } from "../../scenes";
 import { appRoutes } from "./routes";
 
 export const router = createBrowserRouter([
@@ -14,10 +14,6 @@ export const router = createBrowserRouter([
       {
         path: appRoutes.projects,
         element: <ProjectsScene />,
-      },
-      {
-        path: appRoutes.skills,
-        element: <SkillsScene />,
       },
     ],
   },
