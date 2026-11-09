@@ -16,6 +16,9 @@ export const Layout = () => (
         <NavLink to={appRoutes.projects} className={linkClassName}>
           Proyectos
         </NavLink>
+        <NavLink to={appRoutes.skills} className={linkClassName}>
+          Habilidades
+        </NavLink>
       </nav>
     </header>
     <main className={classes.main}>
