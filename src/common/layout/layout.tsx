@@ -5,6 +5,8 @@ import classes from "./layout.module.css";
 const linkClassName = ({ isActive }: { isActive: boolean }) =>
   isActive ? `${classes.link} ${classes.active}` : classes.link;
 
+const currentYear = new Date().getFullYear();
+
 export const Layout = () => (
   <div className={classes.root}>
     <header className={classes.header}>
@@ -24,5 +26,15 @@ export const Layout = () => (
     <main className={classes.main}>
       <Outlet />
     </main>
+    <footer className={classes.footer}>
+      <span>© {currentYear} Kevin</span>
+      <a
+        href="https://github.com/kevinandrep/portafolio-react"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Código en GitHub
+      </a>
+    </footer>
   </div>
 );
