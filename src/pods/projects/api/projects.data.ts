@@ -24,6 +24,5 @@ export const projectsData: ProjectApiModel[] = [
       "Descripción provisional. La reemplazaremos por un proyecto real.",
     technologies: ["Docker"],
     repoUrl: "https://github.com/kevinandrep",
-    demoUrl: "https://example.com",
   },
 ];
